@@ -38,8 +38,11 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Anda bisa menambahkan logo seperti di video
-            // Icon(Icons.pets, size: 80),
+            Image.asset(
+              'lib/assets/icon.png',
+              width: 150,
+              height: 150,
+            ),
             const SizedBox(height: 20),
             const Text(
               'Memuat Data Endemik...',
